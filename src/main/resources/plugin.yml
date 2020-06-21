@@ -1,0 +1,6 @@
+name: ResPlaceHolder
+version: ${project.version}
+main: com.andan.resplaceholder.resplaceholder.ResPlaceHolder
+depend:
+  - Residence
+  - PlaceholderAPI
