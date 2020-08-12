@@ -21,11 +21,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: me.clip:placeholderapi:2.8.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: me.clip:placeholderapi:2.10.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jetbrains:annotations:19.0.0" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: b:a:1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/Residence4.9.0.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/Residence4.9.1.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

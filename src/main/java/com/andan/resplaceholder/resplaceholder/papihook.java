@@ -7,6 +7,7 @@ import org.bukkit.entity.Player;
 import java.util.ArrayList;
 
 public class papihook extends PlaceholderExpansion  {
+
     public papihook(ResPlaceHolder resPlaceHolder) {
 
     }
@@ -14,11 +15,6 @@ public class papihook extends PlaceholderExpansion  {
     @Override
     public String getIdentifier() {
         return "resholder";
-    }
-
-    @Override
-    public String getPlugin() {
-        return "";
     }
 
     @Override
@@ -37,7 +33,7 @@ public class papihook extends PlaceholderExpansion  {
             ArrayList<String> residenceList = ResidenceApi.getPlayerManager().getResidenceList(player.getName());
             return String.join(",", residenceList);
         }else if (s.toLowerCase().contains("flag")){
-            String resname = s.split(";")[0];
+            String resname = s.split(";")[1];
             String flag_name = s.split(";")[2];
             return ""+ResidenceApi.getResidenceManager().getByName(resname).getPermissions().getFlags().get(flag_name);
         }
